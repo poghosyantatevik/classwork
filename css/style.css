@@ -65,17 +65,17 @@ p {
 
 #headerwrap {
     background-image: url(/classwork/img/frontend.png);
-    background-repeat: no-repeat center;
-    min-height: 650px;
-    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;
 }
 
 #headerwrap h1 {
     background: rgba(54, 25, 25, .04);
-    margin-top: 60px;
+    margin-top: 110px;
     padding-top: 0;
     margin-bottom: 15px;
-    margin-left: 164px;
+    margin-left: 60px;
     color: rgb(37, 89, 231);
     letter-spacing: -3px;
     font-size: 60px;
@@ -112,8 +112,10 @@ p {
     transition: 0.4s;
 }
 
-.contact-form.form-send button:hover {
-    background: #f0ad4e;
+.contact-form .form-send button:hover {
+    background: #e6921c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 500;
 }
 
 #copyrights {
